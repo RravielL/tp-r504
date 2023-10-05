@@ -1,0 +1,40 @@
+1.1 Il y a 9 contributeurs
+
+1.2 480 ko
+
+1.3 La commande git blame sert à afficher les modifications et celui qui l'a fait pour chaque ligne.
+
+1.4 Il s'agit de Jake Ginnivan
+
+1.5 Le Hash : 3e5d1596 
+
+1.6 Adding tag command reference
+
+1.7 Mardi 17 Juin 2014 (à 21:47:47)
+
+1.8 Le Hash : 294c63b9
+
+1.9  Il s'agit de Wei Wang, le Mardi 6 Janvier 2015 (à17:14:04)
+
+1.10 "git log --online|wc -l" qui donne "91".
+
+1.11 Ajoute la date pour chaque étape
+
+1.12 git log --format="%an%"
+
+1.13 la commande "git log --format="%an"|sort|uniq|wc -l" nous donne alors 10. Ce qui ne corrrespond pas à ce qui est affiché par Github.
+
+2.1 git status
+
+2.2 main
+ 
+2.5 oui
+
+2.6 Non
+
+2.7 La commande indique qu'un ligne est ajouté (donc celle de l'image)
+
+2.8 Oui
+
+
+
