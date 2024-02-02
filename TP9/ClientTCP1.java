@@ -1,10 +1,21 @@
-//ServeurTCP1.java
-ServerSocket socketserver = new ServerSocket( 2016 );
-System.out.prinln( "serveur en attente" );
-Socket socket = socketserver.accept();
-System.out.println( "Connection d'un client" );
-DataInputStream dIn = new DataInputStream( socket.getInputStream() );
-System.out.println( "Message : " + dIn.readUTF());
+//ClientTCP1.java
+import java.io.*;
+import java.net.*;
 
-socket.close();
-socketserver.close();
+public class ServeurUDP
+{
+	public static void main ( String [ ] args )
+	{
+		try
+		{
+			Socket socket = new Socket ( "localhost", 2016 );
+			DataOutputStream dOut = new DataOutputStream ( socket.getOutputStream() );
+			dOut.writeUTF( "message test" );
+			socket.close();
+		}
+		catch( Exception e )
+		{
+			System.out.println ( " erreur ! " ) ;
+		}
+	}
+}
